@@ -1,0 +1,21 @@
+{
+	"name": "astro-boiler",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^2.0.10",
+		"gsap": "^3.11.4",
+		"locomotive-scroll": "^4.1.4",
+		"split-type": "^0.3.3"
+	},
+	"devDependencies": {
+		"sass": "^1.58.0"
+	}
+}

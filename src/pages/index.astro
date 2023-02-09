@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Hello There!">
+    <section class="test">
+        <h1>Hello There!!!</h1>
+    </section>
+    <section
+        class="test2"
+        data-textcolor="var(--clr-white)"
+        data-bgcolor="var(--clr-black)"
+    >
+        <p text-split words-slide-up>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae
+            sunt, ea consequuntur iusto laborum tenetur quo porro error sint
+            nulla, architecto dicta necessitatibus ipsum nisi iste repudiandae!
+            Cupiditate fugit neque accusamus perspiciatis magni exercitationem
+            nemo esse voluptatibus suscipit praesentium? Nam culpa nostrum
+            commodi sed autem fugit, assumenda amet dolorum. Quas, consectetur
+            facere voluptatibus ipsa qui rerum minus reiciendis dolorem eaque
+            deserunt enim, est incidunt quos reprehenderit temporibus omnis
+            natus dolore illum illo, iure aut ratione recusandae suscipit? Quae
+            hic et laborum odio quo doloremque nesciunt sint modi mollitia
+            facere illum itaque eius, quibusdam est iste aut, ducimus commodi?
+            Rerum!
+        </p>
+    </section>
+</Layout>
+
+<style lang="scss">
+    .test {
+        width: 100%;
+        height: 200vh;
+
+        h1 {
+            font-size: 10rem;
+        }
+    }
+    .test2 {
+        width: 100%;
+        height: 200vh;
+
+        p {
+            font-size: 2.4rem;
+        }
+    }
+</style>
